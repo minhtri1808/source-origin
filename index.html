@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./css/main.min.css">
     <link href="./node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="./js/core.min.js"></script>
+    <script type="text/javascript" src="./js/main.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -31,14 +34,40 @@
             <div class="col-sm-2-5"></div>
             <div class="col-sm-9-5"></div>
         </div>
+        <button class="btn btn-primary">1</button>
     </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+	Launch demo <i class="fas fa-users"></i>
+  </button>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <main>
     <div id="go-top"><img class="svg" src="./assets/Header/backtotop.svg"></div>
 </main>
-<script type="text/javascript" src="./js/core.min.js"></script>
-<script type="text/javascript" src="./js/main.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery-3.3.1.slim.min.js"></script>
+<script src="./js/popper.min.js"></script>
 <script src="./js/jquery.min.js"></script>
 <script src="./js/jquery-3.5.1.js"></script>
 <script src="./js/main.js"></script>
